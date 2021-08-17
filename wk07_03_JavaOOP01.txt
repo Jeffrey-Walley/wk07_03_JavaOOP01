@@ -1,0 +1,119 @@
+
+08/04/2021 - wk07 day03  OOP 1
+	
+	4 pillars of OOP
+	- Abstraction: abstracts data using methods of object without user knowing how things work (ex: volume on phone, how car works)
+
+	- Encapsulation: wrapping data and functions together (wrapping data and function together, refers to ablility to hide certain properties and functions
+
+	- Inheritance: OOP can inherit code from other classes. you can utilize features from the super class in a more specific subclass (ex: vehicle, subclass: truck)
+
+	- Polymorphisim: allows subclasses to redefine methods from their parent class. this can allow for further customization within subclasses (ex: vehicle may have MPG function, but hybrid subclass can overwrite MPG function)
+
+
+Packages in Java are similar to folders and help you organize
+
+to access a different class in a package you must explicitly import the item
+
+the Class is the blueprint for the Object
+
+OOP is a way to organize code so that data and associated methods can be grouped together and re-used across instances
+
+most Java environments consider 'src' file to be the root of the project
+
+'packages' in Java act similar to folders and help to organize the classes. 
+
+we access files in Java by using the full path (including the package) so that we can keep everything organized
+
+in Java filename is the same as the Class name
+
+  the package name must be the first statement
+
+Java APIs are called modules ex: java.util.Scanner or java.security.cert
+
+'new' Key word is instantiates an Object instance
+
+we use '.dot notation' to access the operations that live on the different data structures. ex: arrayList.get(1)   // the .dot notation
+
+
+Java JDK has 1000s of Classes (classes are Capitalized), to instantiate a new class we use the "new" key word, 
+an Instance of a Class is called an Object, .dot syntax (.dot notation) is used to reference members of the Class in an Object.
+
+
+constructors are NOT methods
+
+anything that lives on a Class is known as a 'member', 
+	if it looks like a function it is refered to as a 'method', 
+		if it looks like a variable it is referred to as a 'field'.
+
+Object attributes = fields 
+Object actions = methods
+
+ex: blue 4 door car that can start, accelerate, stop
+
+
+"Getters and Setters"
+---------------------
+
+every class has a 'no args' or default constructor, the constructor can be specified, though
+
+constructors Can NOT return a value - they are NOT methods (in Java domain)
+
+the Getters and Setters are encapsulation -- getters and setters are the prototypical form of encapsulation
+
+
+
+
+"Access Moddifiers"
+------------
+
+the 'public' and 'privates' at the beginning, 'protected' is an additional modifier.
+
+
+Conventions are not language rules -- they are simply guides
+
+private methods should be grouped together, 
+ public methods should be grouped with other public methods
+
+
+using constants. 
+
+  conventionnaly constants are all cap and underscore: $ Car.TYPE_FAMILY
+
+you can static import so you don't have to type Car.TYPE_FAMILY, you can just type TYPE_FAMILY
+
+static and non-static don't mix -- you must instantiate the non-static into the static.
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------- moving to examples in IDE
+          
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+	
+
+
+
